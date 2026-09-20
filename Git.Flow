@@ -11,3 +11,8 @@ Local Repository
        | git push
        v
 GitHub (Remote Repository)
+
+2. an example
+git add .
+git commit -m "Add new customization"
+git push origin main
