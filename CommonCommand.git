@@ -1,0 +1,29 @@
+1. create a new repository on the command line
+echo "# Git.Common" >> README.md
+git init: => Init git
+git add README.md => add a file
+git commit -m "first commit" => Commit
+git branch -M main 
+git remote add origin https://github.com/DHA1985/Git.Common.git
+git push -u origin main
+
+2. push an existing repository from the command line
+git remote add origin https://github.com/YorGithub/Git.Common.git
+git branch -M main
+git push -u origin main
+
+3. Rename branch
+- From master to main
+git branch -m master main
+
+4. Push to GitHub
+git push -u origin main
+
+5. Delete old branch not in use in github
+
+git push origin --delete master
+
+5. Kiem tra status tai repo
+git branch -a
+git remote -v
+git status
